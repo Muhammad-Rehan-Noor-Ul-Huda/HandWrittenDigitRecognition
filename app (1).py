@@ -2,6 +2,7 @@ import numpy as np
 import streamlit as st
 from PIL import Image
 from streamlit_drawable_canvas import st_canvas
+import cv2
 from tensorflow.keras.models import load_model
 
 # ==================== CONFIG ====================
